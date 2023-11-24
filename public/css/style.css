@@ -27,3 +27,169 @@ body {
     min-height: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cyberSecurity{
+    width: 100%;
+    height: 40em;
+ display: flex;
+ margin-top: 10em;
+ background-color: #0a1650;
+}
+
+.imgCyber{
+    height: 100%;
+    width: 50%;
+    background: url(../source/image/service-right-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+.imgCyber:hover  .read{
+    opacity: 1;
+    transition: 2s;
+
+}
+
+
+
+
+.imgCyber div{
+    height: 40%;
+    width: 25%;
+ background: #22c7e6;
+ border-radius: 10%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 10%;
+ opacity: 0;
+
+}
+
+.imgCyber div {
+    color: white;
+}
+.imgCyber div  a{
+    color: white;
+    text-decoration: none;
+}
+.imgCyber div  a:hover{
+    color: #0a1650;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+
+
+
+.bgCyber{
+    width: 20%;
+    background: url(../source/image/dots-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scaleX(-1); /* flip vertically */
+    
+}
+
+
+
+
+.txtCyber{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.txtCyberService{
+    height: 50%;
+    width: 70%;
+}
+.txtCyberService h1{
+    color: white;
+}
+.txtCyberService h5{
+    color: #22c7e6;
+}
+.txtCyberService p{
+    color: #5f6fb2;
+}
+
