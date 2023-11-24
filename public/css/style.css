@@ -27,3 +27,100 @@ body {
     min-height: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whoWeAre{
+    height: 30em;
+    width: 100%;
+    display: flex;
+    background: #0a1650;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.imgWhoWeAre{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgWhoWeAre img{
+  
+    height: 70%;
+    width: 60%;
+}
+
+
+.txtWhoWeAre{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.txtWhoWeAre h5{
+    margin: 0;
+    padding: 0;
+    color: #3195c7;
+   
+}
+.txtWhoWeAre h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.txtWhoWeAre p{
+    margin: 0;
+    padding: 0;
+    color:  #5a6cb2;
+    font-size: 80%;
+}
+.txtWhoWeAre li{
+    margin: 0;
+    padding: 0;
+    color:  #5a6cb2;
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+}
+
+.txtWhoWeAre li::before{
+    content: url(../source/image/checked.png);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+   
+    
+   
+}
+
+.logoWhoWeAre{
+    
+    height: 100%;
+    width: 20%;
+    background: url(../source/image/dots-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
