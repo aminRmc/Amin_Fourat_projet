@@ -143,11 +143,13 @@ a {
 
 #btnStart:hover {
     background-color:#091853 ;
+    border: solid 2px #0ad3ef ;
 }
 
 
 #btnFond:hover {
     background-color:#091853 ;
+    border : 2px solid #2251a0 ;
 }
 
 #btnFond{
