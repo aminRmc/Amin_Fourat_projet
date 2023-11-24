@@ -27,3 +27,72 @@ body {
     min-height: 100%;
 }
 
+header{
+    background-image: url(../source/image/banner-overlay-img.png) ;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between ;
+    color : white ;
+    width: 100%;
+    height: auto;
+    gap : 200px;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border : 2px solid black; */
+    gap : 15px;
+    font-family: url(../source/fonts/RobotoRegular.ttf);
+    /* margin-right: 100px; */
+    /* font-weight:bold; */
+    width: 70%;
+}
+
+.logoNav {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+.infoHead{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between ;
+    color : white ;
+    width: 100%;
+    height: auto;
+    gap : 200px;
+}
+
+.imgBannerHead {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgBannerHead img{
+    height: 200px;
+    width: 160px;
+}
+
+.infoCyberSec{
+    display: flex;
+    width: 50%;
+    align-content: flex-end;
+}
+
+
+button{
+
+}
+
