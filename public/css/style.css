@@ -27,3 +27,118 @@ body {
     min-height: 100%;
 }
 
+.whatWeDo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0a1650 ;
+    background-image: url(../source/image/overly-img.png) ;
+    padding: 1%;
+}
+
+.txtWhatWeDo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtWhatWeDo p{
+    color : #0bd2ef;
+    margin: 0;
+    padding: 1%;
+}
+
+.txtWhatWeDo h1{
+    color : white !important;
+    margin : 0;
+}
+
+.imgWhatWeDo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap : 2%;
+    padding: 3%;;
+}
+
+.imgWhatWeDo img {
+    height: 20%;
+    width: 20%;
+}
+
+.imgWhatWeDo div {
+    height: 50%;
+    width: 50%;
+    /* /* justify-content: flex-start; */
+    align-items: flex-start; 
+    flex-direction: column;
+}
+
+.imgWhatWeDo div p{
+    justify-content: center;
+    align-items: center;
+}
+
+.imgWhatWeDo div p:nth-of-type(1) {
+    color : white;
+}
+.imgWhatWeDo div p:nth-of-type(2) {
+color : #5E70B5;
+}
+/* .imgWhatWeDo div:hover{ */
+    /* background-color: #0bd2ef;
+}
+
+.imgWhatWeDo div:hover img{
+    filter: brightness(100);
+    transform: translateY(-10px);
+    transition: 0.5s;
+} */
+
+.card {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17256e;
+    border-radius: 15px;
+    border: 3px solid #17256e;
+    padding: 3%;
+    
+}
+
+
+.card:hover {
+    border: 1px solid #0bd2ef;
+}
+
+.card:hover img {
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+}
+
+#btnStart{
+    background-color: #0ad3ef;
+    display: flex;
+    width: 10%;
+    /* height: 10%; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5%;
+    border : none ;
+    color : white;
+    text-decoration: none;
+}
+
+#btnStart:hover {
+    background-color:#091853 ;
+    border: solid 2px #0ad3ef ;
+}
