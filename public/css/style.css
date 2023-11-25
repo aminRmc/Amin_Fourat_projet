@@ -27,3 +27,138 @@ body {
     min-height: 100%;
 }
 
+@font-face {
+    font-family: OswaldMedium;
+    src: url(../source/fonts/OswaldMedium.ttf);
+}
+
+@font-face {
+    font-family: OswaldRegular;
+    src: url(../source/fonts/OswaldRegular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../source/fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../source/fonts/RobotoMedium.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../source/fonts/RobotoRegular.ttf);
+}
+
+body {
+    margin : 0;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+.getInTouch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0a1650 ;
+    background-image: url(../img/dots-img.png);
+    background-position-x: right;
+    padding: 1%;
+    /* border: 5px solid red !important; */
+}
+
+.txtGetInTouch {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtGetInTouch p{
+    color : #0bd2ef;
+    margin: 0;
+    padding: 1%;
+}
+
+.txtGetInTouch h1{
+    color : white !important;
+    margin : 0;
+}
+
+
+.form{
+    display: flex !important;
+    width: 60%;
+    background-color: #091853;
+    /* border: 5px solid red; */
+    border-radius: 8px;
+    padding: 6px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap : 5%;
+    flex-wrap: wrap !important;
+}
+
+.champsForm{
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    gap : 2%;
+}
+
+
+input {
+    flex : 1;
+    padding: 8px;
+    border: 1px solid #0ad3ef;
+    margin-right: 5px;
+    background-color: #091853;
+    flex-direction: row;
+}
+
+textarea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0ad3ef;
+    margin-right: 5px;
+    background-color: #091853;
+}
+
+.champsArea {
+flex-basis: 100%;}
+
+#btnContact {
+    background-color: #0ad3ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border : none ;
+    color :white;
+    text-decoration: none;
+    padding : 5px;}
+
+.btnSubmit{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+}
+
+#btnContact:hover {
+    background-color:#091853 ;
+    border: solid 1px #0ad3ef ;
+}
