@@ -180,8 +180,8 @@ body {
     align-items: center;
 }
 .txtCyberService{
-    height: 50%;
-    width: 70%;
+    height: 80%;
+    width: 90%;
 }
 .txtCyberService h1{
     color: white;
@@ -193,3 +193,76 @@ body {
     color: #5f6fb2;
 }
 
+
+
+
+.state{
+    padding: 0;
+    margin: 0;
+    height: 30%;
+    width: 100%;
+    display: flex;
+   
+}
+
+.porcent{
+    width: 33%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.porcent h3{
+    color: white;
+}
+
+
+svg{
+    height: 150px;
+    position: relative;
+}
+
+svg circle{
+    fill: none;
+    stroke: #22c7e6;
+    stroke-width: 5px;
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+    stroke-dasharray: 190%;
+    stroke-dashoffset: 190%;
+    stroke-linecap: round;
+}
+svg:hover .quatrevignt{
+    stroke-dashoffset: 28.5%;
+    transition: 2S;
+}
+
+.bgCircle{
+    stroke-dashoffset: 0%;
+    stroke: rgba(128, 128, 128, 0.187);
+}
+
+svg:hover .septent{
+    stroke-dashoffset: 41.8%;
+    transition: 2S;
+}
+svg:hover .soixante{
+    stroke-dashoffset: 68.4%;
+    transition: 2S;
+}
+span{
+    font-size: large;
+    position: absolute;
+    bottom: 65%;
+    left: 38%;
+    color: white;
+     
+}
+
+
+.state{
+    text-align: center;
+}
