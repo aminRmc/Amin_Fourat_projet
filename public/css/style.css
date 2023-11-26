@@ -1,8 +1,35 @@
+@font-face {
+    font-family: OswaldMedium;
+    src: url(../source/fonts/OswaldMedium.ttf);
+}
 
+@font-face {
+    font-family: OswaldRegular;
+    src: url(../source/fonts/OswaldRegular.ttf);
+}
 
+@font-face {
+    font-family: RobotoBold;
+    src: url(../source/fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../source/fonts/RobotoMedium.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../source/fonts/RobotoRegular.ttf);
+}
 
+body {
+    margin : 0;
+    overflow-x: hidden;
+    min-height: 100%;
+    font-family: RobotoRegular ;
+    /* background-color: #0ad3ef; */
 
 
+}
 
 
 
@@ -23,115 +50,156 @@
 
 
 
+header{
+    background-image: url(../source/image/banner-overlay-img.png) ;
+    background-size: cover;
+    background-color: #091853;
+    height: 50em;
+    
+}
 
 
+nav{
+    display: flex;
+    justify-content: space-between ;
+    color : white ;
+    width: 100%;
+    height: 20%;
+    gap : 200px;
+    /* border: 5px solid orange; */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.menuNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border : 2px solid black; */
+    gap : 15px;
+    font-family: url(../source/fonts/RobotoRegular.ttf);
+    /* margin-right: 100px; */
+    /* font-weight:bold; */
+    width: 70%;
+}
+
+.logoNav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    /* border : 5px solid black; */
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+.infoHead{
+    display: flex;
+    flex-direction: row;
+    height:80%;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: flex-end;
+    color : white ;
+    /* height: auto; */
+    gap : 20px;
+    /* border : 5px solid red; */
+}
+
+.imgBannerHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 65%;
+    /* height: auto; */
+    /* border : 5px solid yellow; */
+
+}
+
+.imgBannerHead img{
+    height: 80%;
+    width: 75%;
+}
+
+.infoCybersec{
+    display: flex;
+    width: 30%;
+    /* align-content: flex-end; */
+    height: 60% ;
+    flex-direction: column;
+
+    /* border : 5px solid green; */
+
+}
+
+#btnContact {
+    background-color: #0ad3ef;
+    display: flex;
+    height: 25%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border : none ;
+    color :white;
+}
+
+
+#btnStart, #btnFond{
+    /* border : 5px solid red; */
+    background-color: #0ad3ef;
+    display: flex;
+    width: 45%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5%;
+    border : none ;
+    color : white;
+}
+
+#btnStart:hover {
+    background-color:#091853 ;
+    border: solid 2px #0ad3ef ;
+}
+
+
+#btnFond:hover {
+    background-color:#091853 ;
+    border : 2px solid #2251a0 ;
+}
+
+#btnFond{
+    background-color:  #2251a0;
+    color :white;
+}
+
+.btnContact{
+    background-color: #0ad3ef;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 25%; */
+    border : none ;
+    color : white;
+}
+
+.bntHeader {
+    display:flex;
+    flex-direction: row ;
+    gap : 10px;
+    /* border : 5px solid orange; */
+    height: 8%;
+    /* width: ; */
+    justify-content: center;
+        margin-top: 0;
+
+}
+
+#paraCyber{
+    margin-top : 10px;
+}
 
 
 
@@ -180,14 +248,1013 @@
    justify-content: center;
    gap: 2%;
 }
-@font-face {
-    font-family: RobotoRegular;
-    src: url(../source/fonts/RobotoRegular.ttf);
+
+.imgPartners div{
+    height: 60%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17256e;
+    border-radius: 10%;
+
+}
+.imgPartners img{
+    height: 50%;
+    width: 50%;
+    
+    /* filter:brightness(100); */
 }
 
-body {
+.imgPartners div:hover{
+    background: #0bd2ef;
+ 
+    
+}
+
+.imgPartners div:hover img{
+    filter:brightness(100);
+    transform:translateY(-10px);
+    transition: 0.5s;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section .whoWeAre */
+.whoWeAre{
+    height: 30em;
+    width: 100%;
+    display: flex;
+    background: #0a1650;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.imgWhoWeAre{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgWhoWeAre img{
+  
+    height: 70%;
+    width: 60%;
+}
+
+
+.txtWhoWeAre{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.txtWhoWeAre h5{
+    margin: 0;
+    padding: 0;
+    color: #3195c7;
+   
+}
+.txtWhoWeAre h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.txtWhoWeAre p{
+    margin: 0;
+    padding: 0;
+    color:  #5a6cb2;
+    font-size: 80%;
+}
+.txtWhoWeAre li{
+    margin: 0;
+    padding: 0;
+    color:  #5a6cb2;
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+}
+
+.txtWhoWeAre li::before{
+    content: url(../source/image/hiclipart.com.png  );
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+   
+    
+   
+}
+
+.logoWhoWeAre{
+    
+    height: 100%;
+    width: 20%;
+    background: url(../source/image/dots-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+.whatWeDo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0a1650 ;
+    background-image: url(../source/image/overly-img.png) ;
+    padding: 1%;
+}
+
+.txtWhatWeDo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtWhatWeDo p{
+    color : #0bd2ef;
+    margin: 0;
+    padding: 1%;
+}
+
+.txtWhatWeDo h1{
+    color : white !important;
     margin : 0;
-    overflow-x: hidden;
-    min-height: 100%;
 }
 
+.imgWhatWeDo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap : 2%;
+    padding: 3%;;
+}
+
+.imgWhatWeDo img {
+    height: 20%;
+    width: 20%;
+}
+
+.imgWhatWeDo div {
+    height: 50%;
+    width: 50%;
+    /* /* justify-content: flex-start; */
+    align-items: flex-start; 
+    flex-direction: column;
+}
+
+.imgWhatWeDo div p{
+    justify-content: center;
+    align-items: center;
+}
+
+.imgWhatWeDo div p:nth-of-type(1) {
+    color : white;
+}
+.imgWhatWeDo div p:nth-of-type(2) {
+color : #5E70B5;
+}
+/* .imgWhatWeDo div:hover{ */
+    /* background-color: #0bd2ef;
+}
+
+.imgWhatWeDo div:hover img{
+    filter: brightness(100);
+    transform: translateY(-10px);
+    transition: 0.5s;
+} */
+
+.card {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17256e;
+    border-radius: 15px;
+    border: 3px solid #17256e;
+    padding: 3%;
+    
+}
+
+
+.card:hover {
+    border: 1px solid #0bd2ef;
+}
+
+.card:hover img {
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+}
+
+#btnStart{
+    background-color: #0ad3ef;
+    display: flex;
+    width: 10%;
+    /* height: 10%; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5%;
+    border : none ;
+    color : white;
+    text-decoration: none;
+}
+
+#btnStart:hover {
+    background-color:#091853 ;
+    border: solid 2px #0ad3ef ;
+}
+
+
+
+
+
+
+
+
+
+.cyberSecurity{
+    width: 100%;
+    height: 50em;
+ display: flex;
+
+ background-color: #0a1650;
+}
+
+.imgCyber{
+    height: 100%;
+    width: 50%;
+    background: url(../source/image/service-right-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+.imgCyber:hover  .read{
+    opacity: 1;
+    transition: 2s;
+
+}
+
+
+
+
+.imgCyber div{
+    height: 40%;
+    width: 25%;
+ background: #22c7e6;
+ border-radius: 10%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 10%;
+ opacity: 0;
+
+}
+
+.imgCyber div {
+    color: white;
+}
+.imgCyber div  a{
+    color: white;
+    text-decoration: none;
+}
+.imgCyber div  a:hover{
+    color: #0a1650;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+
+
+
+.bgCyber{
+    width: 20%;
+    background: url(../source/image/dots-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scaleX(-1); /* flip vertically */
+    
+}
+
+
+
+
+.txtCyber{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.txtCyberService{
+    height: 80%;
+    width: 90%;
+}
+.txtCyberService h1{
+    color: white;
+}
+.txtCyberService h5{
+    color: #22c7e6;
+}
+.txtCyberService p{
+    color: #5f6fb2;
+}
+
+
+
+
+.porcentage{
+    padding: 0;
+    margin: 0;
+    height: 30%;
+    width: 100%;
+    display: flex;
+   
+}
+
+.porcent{
+    width: 33%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.porcent h3{
+    color: white;
+}
+
+
+svg{
+    height: 150px;
+    position: relative;
+}
+
+svg circle{
+    fill: none;
+    stroke: #22c7e6;
+    stroke-width: 5px;
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+    stroke-dasharray: 190%;
+    stroke-dashoffset: 190%;
+    stroke-linecap: round;
+}
+svg:hover .quatrevignt{
+    stroke-dashoffset: 28.5%;
+    transition: 2S;
+}
+
+.bgCircle{
+    stroke-dashoffset: 0%;
+    stroke: rgba(128, 128, 128, 0.187);
+}
+
+svg:hover .septent{
+    stroke-dashoffset: 41.8%;
+    transition: 2S;
+}
+svg:hover .soixante{
+    stroke-dashoffset: 68.4%;
+    transition: 2S;
+}
+span{
+    font-size: large;
+    position: absolute;
+    bottom: 65%;
+    left: 38%;
+    color: white;
+     
+}
+
+
+.porcentage{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.state{
+    background: #0a1650;
+    height: 40em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../source/image/overly-img.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.logoState{
+
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoState div img{
+    height: 30%;
+    width: 30%;
+}
+.logoState div{
+color: white;
+height: 40%;
+width: 40%;
+background: #17256E;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.logoState div p {
+    color: rgba(248, 247, 247, 0.384);
+    font-size:large;
+    margin: 0;
+    padding: 0;
+}
+.textState{
+    height: 90%;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+}
+.txtStatistique{
+    height: 80%;
+    width: 80%;
+}
+.textState h1{
+    font-size: xx-large;
+    color: white;
+}
+.textState h4{
+    color: #0bd2ef;
+}
+.textState p{
+    color: rgba(248, 247, 247, 0.384);
+    font-size: large;
+}
+.started a {
+    color: white;
+    text-decoration: none;
+
+}
+.started{
+    background: #0bd2ef;
+    height: 8%;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.ourNews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0a1650 ;
+    background-image: url(../img/dots-img\ reverse.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    /* background-position-x: right; */
+    padding: 5%;
+    /* border: 5px solid red !important; */
+}
+
+.txtOurNews {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtOurNews p{
+    color : #0bd2ef;
+    margin: 0;
+    padding: 1%;
+}
+
+.txtOurNews h1{
+    color : white !important;
+    margin-bottom : 2%;
+}
+
+.deuxBlocs{
+    display: flex;
+    /* justify-content: space-between !important; */
+    gap : 5%;
+
+    
+}
+
+.blocUn, .blocDeux{
+    flex : 1;
+    max-width: 40%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center ;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    position: relative !important; /* passer par la position pour arriver à faire pencher l'image background seulement sans que cela n'affecte toute la classe, ce qu'avec DisplayFlex est très difficile
+    overflow: hidden; /*pour ne pas que l'image déborde au moment du hover*/
+/*  */
+}
+
+.blocUn .background-image {
+    flex:1;
+    /* background-image: url(../img/blog-post-img1.png); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+}
+
+.blocDeux .background-image{
+    flex: 1;
+    /* background-image: url(../img/blog-post-img2.png); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+}
+
+.blocUn:hover {
+    transform: rotate(3deg);
+}
+
+.blocDeux {
+    transform: rotate(3deg);
+}
+
+
+.blocUn{
+    background-image: url(../source/image/blog-post-img1.png);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 5px;
+    margin : 5%; 
+    transition: transform 0.3s ease;
+}
+
+.blocDeux{
+    background-image: url(../source/image/blog-post-img2.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    margin : 5%; 
+    transition: transform 0.3s ease;
+} 
+
+
+#title:hover, h1:hover, #read:hover, a:hover {
+
+    color :#0bd2ef;
+
+}
+
+#title {
+    font-size: 2vw;
+    color:rgba(212, 206, 206, 0.57);
+}
+
+h1 {
+    font-size: 3vw;
+    color : white;
+}
+
+#read
+{
+    font-size: 1.5vw;
+    color : white !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.getInTouch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0a1650 ;
+    background-image: url(../source/image/dots-img.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 1%;
+    /* border: 5px solid red !important; */
+}
+
+.txtGetInTouch {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtGetInTouch p{
+    color : #0bd2ef;
+    margin: 0;
+    padding: 1%;
+}
+
+.txtGetInTouch h1{
+    color : white !important;
+    margin : 0;
+}
+
+
+.form{
+    display: flex !important;
+    width: 60%;
+    background-color: #091853;
+    /* border: 5px solid red; */
+    border-radius: 8px;
+    padding: 6px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap : 5%;
+    flex-wrap: wrap !important;
+}
+
+.champsForm{
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    gap : 2%;
+}
+
+
+input {
+    flex : 1;
+    padding: 8px;
+    border: 1px solid #0ad3ef;
+    margin-right: 5px;
+    background-color: #091853;
+    flex-direction: row;
+}
+
+textarea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0ad3ef;
+    margin-right: 5px;
+    background-color: #091853;
+}
+
+.champsArea {
+flex-basis: 100%;}
+
+#btnContact {
+    background-color: #0ad3ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border : none ;
+    color :white;
+    text-decoration: none;
+    padding : 5px;}
+
+.btnSubmit{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+}
+
+#btnContact:hover {
+    background-color:#091853 ;
+    border: solid 1px #0ad3ef ;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #122061;
+    height: 25em;
+
+    
+}
+
+.footerTop{
+    background: url(../source/image/overly-img.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+}
+
+.footerTop p{
+    color: #bfbbc3;
+}
+
+.footerTop h3{
+    color: white;
+}
+
+
+
+.logoFooter{
+    height: 80%;
+    width: 20%;
+}
+.logoFooter img{
+height: 60%;
+width: 60%;
+
+}
+.aboutFooter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footerTop li{
+    list-style: none;
+    color: #bfbbc3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.servicesFooter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 3.5%;
+   
+}
+
+.servicesFooter h3{
+    margin: 0;
+}
+.servicesFooter p{
+    margin: 0;
+}
+.servicesFooter a{
+    color:#bfbbc3;
+    text-decoration: none;
+    margin: 0;
+}
+.resaux{
+    height: 10%;
+    display: flex;
+    
+   
+    
+    
+}
+
+
+.resaux img{
+    height: 50%;
+    width: 50%;
+    filter: invert(100);
+}
+
+
+
+
+
+
+
+
+
+
+.newLetter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+#enter{
+    background:rgba(245, 222, 179, 0);
+    border: solid rgba(128, 128, 128, 0.422) 1px;
+    border-radius: 5%;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+
+.send{
+    position:relative;
+}
+#submit{
+    position: absolute;
+    background:rgba(245, 222, 179, 0);
+ right:2%;
+ top: 3%;
+border: none;
+}
+#submit:active{
+    filter: saturate(10);
+}
+
+
+
+
+.agreeFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.agreeFooter button{
+   height: 15px;
+   width: 10%;
+   background: rgba(220, 220, 220, 0);
+   border: solid 1px #22c7e6;
+}
+.agreeFooter button:active{
+   height: 15px;
+   width: 10%;
+   background: url(../source/image/hiclipart.com.png);
+   background: #22c9e692;
+   border: solid 1px #22c7e6;
+}
+
+
+
+
+.footerBottom{
+    border-top:solid rgba(128, 128, 128, 0.279) 1px ;
+    height: 10%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footerBottom p {
+    color: #bfbbc3 ;
+
+}
