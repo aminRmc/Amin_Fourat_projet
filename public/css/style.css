@@ -27,3 +27,85 @@ body {
     min-height: 100%;
 }
 
+.state{
+    background: #0a1650;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../source/image/overly-img.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.logoState{
+
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoState div img{
+    height: 30%;
+    width: 30%;
+}
+.logoState div{
+color: white;
+height: 40%;
+width: 40%;
+background: #17256E;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.logoState div p {
+    color: rgba(248, 247, 247, 0.384);
+    font-size:large;
+    margin: 0;
+    padding: 0;
+}
+.textState{
+    height: 90%;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+}
+.txtStatistique{
+    height: 80%;
+    width: 80%;
+}
+.textState h1{
+    font-size: xx-large;
+    color: white;
+}
+.textState h4{
+    color: #0bd2ef;
+}
+.textState p{
+    color: rgba(248, 247, 247, 0.384);
+    font-size: large;
+}
+.started a {
+    color: white;
+    text-decoration: none;
+
+}
+.started{
+    background: #0bd2ef;
+    height: 8%;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
