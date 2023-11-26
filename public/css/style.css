@@ -21,35 +21,6 @@
     src: url(../source/fonts/RobotoRegular.ttf);
 }
 
-body {
-    margin : 0;
-    overflow-x: hidden;
-    min-height: 100%;
-}
-
-@font-face {
-    font-family: OswaldMedium;
-    src: url(../source/fonts/OswaldMedium.ttf);
-}
-
-@font-face {
-    font-family: OswaldRegular;
-    src: url(../source/fonts/OswaldRegular.ttf);
-}
-
-@font-face {
-    font-family: RobotoBold;
-    src: url(../source/fonts/RobotoBold.ttf);
-}
-@font-face {
-    font-family: RobotoMedium;
-    src: url(../source/fonts/RobotoMedium.ttf);
-}
-@font-face {
-    font-family: RobotoRegular;
-    src: url(../source/fonts/RobotoRegular.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +46,7 @@ body {
     background-position: left;
     
     /* background-position-x: right; */
-    padding: 1%;
+    padding: 5%;
     /* border: 5px solid red !important; */
 }
 
@@ -96,30 +67,108 @@ body {
 
 .txtOurNews h1{
     color : white !important;
-    margin : 0;
+    margin-bottom : 2%;
 }
 
 .deuxBlocs{
     display: flex;
+    /* justify-content: space-between !important; */
     gap : 5%;
-    
+
     
 }
+
+.blocUn, .blocDeux{
+    flex : 1;
+    max-width: 40%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center ;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    position: relative !important; /* passer par la position pour arriver à faire pencher l'image background seulement sans que cela n'affecte toute la classe, ce qu'avec DisplayFlex est très difficile
+    overflow: hidden; /*pour ne pas que l'image déborde au moment du hover*/
+/*  */
+}
+
+.blocUn .background-image {
+    flex:1;
+    /* background-image: url(../img/blog-post-img1.png); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+}
+
+.blocDeux .background-image{
+    flex: 1;
+    /* background-image: url(../img/blog-post-img2.png); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+}
+
+.blocUn:hover {
+    transform: rotate(3deg);
+}
+
+.blocDeux {
+    transform: rotate(3deg);
+}
+
 
 .blocUn{
     background-image: url(../img/blog-post-img1.png);
     background-size: cover !important;
     background-repeat: no-repeat;
-    background-position: center;
-    /* height: 100%;
-    width: 400px; */
+    background-position: center; 
     border-radius: 5px;
+    margin : 5%; 
+    transition: transform 0.3s ease;
 }
 
 .blocDeux{
     background-image: url(../img/blog-post-img2.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     border-radius: 5px;
+    margin : 5%; 
+    transition: transform 0.3s ease;
+} 
 
+
+#title:hover, h1:hover, #read:hover, a:hover {
+
+    color :#0bd2ef;
+
+}
+
+#title {
+    font-size: 2vw;
+    color:rgba(212, 206, 206, 0.57);
+}
+
+h1 {
+    font-size: 3vw;
+    color : white;
+}
+
+#read
+{
+    font-size: 1.5vw;
+    color : white !important;
+}
+
+a {
+    text-decoration: none !important;
 }
