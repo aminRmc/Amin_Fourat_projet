@@ -36,7 +36,55 @@ body {
 
 
 footer{
-    background: #122061;
+    background-color: #122061;
+    height: 25em;
+
+    
+}
+
+.footerTop{
+    background: url(../source/image/overly-img.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+}
+
+.footerTop p{
+    color: #bfbbc3;
+}
+
+.footerTop h3{
+    color: white;
+}
+
+
+
+.logoFooter{
+    height: 80%;
+    width: 20%;
+}
+.logoFooter img{
+height: 60%;
+width: 60%;
+
+}
+.aboutFooter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footerTop li{
+    list-style: none;
+    color: #bfbbc3;
 }
 
 
@@ -47,8 +95,127 @@ footer{
 
 
 
-img{
-    height: 5%;
-    width: 5%;
+
+
+
+.servicesFooter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 3.5%;
+   
+}
+
+.servicesFooter h3{
+    margin: 0;
+}
+.servicesFooter p{
+    margin: 0;
+}
+.servicesFooter a{
+    color:#bfbbc3;
+    text-decoration: none;
+    margin: 0;
+}
+.resaux{
+    height: 10%;
+    display: flex;
+    
+   
+    
+    
+}
+
+
+.resaux img{
+    height: 50%;
+    width: 50%;
     filter: invert(100);
+}
+
+
+
+
+
+
+
+
+
+
+.newLetter{
+    height: 80%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+#enter{
+    background:rgba(245, 222, 179, 0);
+    border: solid rgba(128, 128, 128, 0.422) 1px;
+    border-radius: 5%;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+
+.send{
+    position:relative;
+}
+#submit{
+    position: absolute;
+    background:rgba(245, 222, 179, 0);
+ right:2%;
+ top: 3%;
+border: none;
+}
+#submit:active{
+    filter: saturate(10);
+}
+
+
+
+
+.agreeFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.agreeFooter button{
+   height: 15px;
+   width: 10%;
+   background: rgba(220, 220, 220, 0);
+   border: solid 1px #22c7e6;
+}
+.agreeFooter button:active{
+   height: 15px;
+   width: 10%;
+   background: url(../source/image/hiclipart.com.png);
+   background: #22c9e692;
+   border: solid 1px #22c7e6;
+}
+
+
+
+
+.footerBottom{
+    border-top:solid rgba(128, 128, 128, 0.279) 1px ;
+    height: 10%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footerBottom p {
+    color: #bfbbc3 ;
+
 }
