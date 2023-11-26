@@ -27,3 +27,28 @@ body {
     min-height: 100%;
 }
 
+
+
+
+
+
+
+
+
+footer{
+    background: #122061;
+}
+
+
+
+
+
+
+
+
+
+img{
+    height: 5%;
+    width: 5%;
+    filter: invert(100);
+}
