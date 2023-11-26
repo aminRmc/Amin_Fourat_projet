@@ -293,7 +293,7 @@ a {
 
 /* section .whoWeAre */
 .whoWeAre{
-    height: 30em;
+    height: 35em;
     width: 100%;
     display: flex;
     background: #0a1650;
@@ -384,7 +384,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#0a1650 ;
+    background-color:#122061;
     background-image: url(../source/image/overly-img.png) ;
     padding: 1%;
 }
@@ -704,7 +704,7 @@ span{
 
 
 .state{
-    background: #0a1650;
+    background: #122061;
     height: 40em;
     width: 100%;
     display: flex;
