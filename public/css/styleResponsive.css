@@ -1,0 +1,173 @@
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+        font-size: 14px; 
+    }
+
+    header {
+        height: 30em; 
+    }
+
+    nav {
+        gap: 100px; 
+    }
+
+    .menuNav {
+        width: 100%; 
+        justify-content: flex-start;
+        margin-right: 300px;
+    }
+
+    .menuNav a {
+    gap : 10px;
+    }
+
+    .logoNav {
+        width: 100%; 
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    .infoHead {
+        gap: 10px; 
+    }
+
+    .imgBannerHead {
+        width: 100%; 
+        justify-content: center;
+    }
+
+    .infoCybersec {
+        width: 100%; 
+        margin-left: 120px;;
+    }
+
+    #btnStart, #btnFond, #btnStartWwdo  {
+        width: 100%; 
+    }
+
+    #btnContact {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center; 
+        font-size: small;
+        height: 30%;
+        width: 100%;
+
+
+    }
+
+    .partners {
+        height: 20em; 
+    }
+
+    .txtPartners {
+        height: 15%; 
+    }
+
+    .imgPartners {
+        height: 40%; 
+    }
+
+    .whoWeAre {
+        height: 25em; 
+    }
+
+    .imgWhoWeAre {
+        width: 100%; 
+    }
+
+    .txtWhoWeAre {
+        width: 100%; 
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .whatWeDo {
+        padding: 2%; 
+    }
+
+    .txtWhatWeDo {
+        width: 100%; 
+    }
+
+    .imgWhatWeDo img {
+        height: 15%; 
+        width: 15%; 
+    }
+
+    .cyberSecurity {
+        height: 35em; 
+    }
+
+    .txtCyberService {
+        width: 100%; 
+    }
+
+    .porcentage {
+        height: 20%; 
+    
+    }
+
+    .porcent h3 {
+        font-size: small; 
+    }
+
+    .state {
+        height: 40em; 
+    }
+
+    
+    .logoState {
+        width: 50%; 
+    }
+
+    .textState {
+        width: 50%; 
+    }
+
+    .ourNews {
+        background-size: auto;
+        /* background-repeat: no-repeat; */
+    }
+
+    .deuxBlocs {
+        flex-direction: column; 
+    }
+
+    .blocUn,
+    .blocDeux {
+        max-width: 90%; 
+        height: 30vh; 
+    }
+
+    .getInTouch {
+        background-position: right;
+        background-size: auto;
+    }
+
+    .txtGetInTouch {
+        width: 100%; 
+    }
+
+    .form {
+        width: 100%; 
+        padding: 2%;;
+    }
+
+    .footerTop {
+        height: 80%; 
+    }
+
+    .logoFooter {
+        width: 25%;
+        margin-left: 10px;
+    }
+
+    .aboutFooter,
+    .servicesFooter,
+    .newLetter {
+        width: 20%;
+    }
+
+}
