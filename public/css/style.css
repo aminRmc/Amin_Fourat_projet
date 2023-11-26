@@ -744,6 +744,11 @@ justify-content: center;
 align-items: center;
 
 }
+
+.logoState h1{
+    margin: 0;
+}
+
 .logoState div p {
     color: rgba(248, 247, 247, 0.384);
     font-size:large;
@@ -866,16 +871,22 @@ align-items: center;
     border-radius: 5px;
     overflow: hidden;
 
-    transition: transform 0.3s ease;
+    transition: transform 3s ease;
 
 }
 
 .blocUn:hover {
-    transform: rotate(3deg);
+  background-position-y: 1px;
+  background-position-x: 10px;
+  
+  transition: 3s;
 }
 
-.blocDeux {
-    transform: rotate(3deg);
+.blocDeux:hover {
+    background-position-y: 1px;
+    background-position-x: -10px;
+    
+    transition: 3s;
 }
 
 
@@ -886,7 +897,7 @@ align-items: center;
     background-position: center; 
     border-radius: 5px;
     margin : 5%; 
-    transition: transform 0.3s ease;
+    transition: transform 3s ease;
 }
 
 .blocDeux{
@@ -895,7 +906,7 @@ align-items: center;
     background-repeat: no-repeat; 
     border-radius: 5px;
     margin : 5%; 
-    transition: transform 0.3s ease;
+    transition: transform 3s ease;
 } 
 
 
