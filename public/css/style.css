@@ -63,8 +63,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color:#0a1650 ;
-    background-image: url(../img/dots-img.png);
-    background-position-x: right;
+    background-image: url(../source/image/dots-img.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
     padding: 1%;
     /* border: 5px solid red !important; */
 }
