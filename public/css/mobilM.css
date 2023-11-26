@@ -1,0 +1,307 @@
+@media (min-width:0px) and (max-width:376px) {
+    body{
+        width: 112%;
+        overflow-x: hidden;
+    }
+   header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   } 
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .logoNav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   }
+   .logoNav img{
+    width: 100px;
+    height: 100px;
+   }
+
+ .menuNav{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   #btnContact{
+    width: 80px;
+   }
+
+
+   .infoHead{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+   }
+   .infoHead img{
+    height: 50%;
+   }
+   .bntHeader{
+    width: 200px;
+
+   }
+
+   .imgBannerHead{
+    
+    height: 60%;
+    width: 60%;
+   }
+
+
+
+
+
+
+
+
+
+
+  .partners{
+    width: 100%;
+    height: 50em;
+  }
+
+  .imgPartners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+  }
+
+  .imgPartners div {
+    height: 100%;
+    width: 25%;
+  }
+
+
+
+
+
+
+
+
+  .whoWeAre{
+    height: 70em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.imgWhoWeAre{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatWeDo {
+    width: 100%;
+    height: 60em;
+}
+.imgWhatWeDo{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgWhatWeDo div{
+    height: 40%;
+    width: 30%;
+}
+#btnStartWwdo{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.cyberSecurity{
+    width: 100%;
+    height: 90em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.imgCyber{
+    height: 50%;
+    width: 100%;
+}
+.txtCyber{
+    width: 100%;
+ height: 50%;   
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.txtCyberService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.porcentage{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.state{
+    height: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoState {
+    width: 100%;
+}
+
+.logoState div{
+    height: 30%;
+    width: 40%;
+}
+.textState{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.txtStatistique{
+    height: 100%;
+    width: 100%;
+}
+
+.started{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.ourNews{
+    width: 90%;
+}
+
+
+
+
+
+.getInTouch{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnSubmit{
+    width: 500px;
+}
+
+
+
+
+
+
+footer{
+    height: 80em;
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+
+.footerTop div{
+    width: 100%;
+    display: flex;
+
+}
+.logoFooter{
+    height: 20%;
+    width: 100%;
+}
+.logoFooter img{
+  height: 100px;
+  width: 100px;
+}
+
+.aboutFooter{
+    height: 20%;
+    width: 40%;
+}
+.servicesFooter{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resaux{
+    height: 20%;
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+}
+
+.neuwsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.send{
+    width: 80px;
+}
+
+}
