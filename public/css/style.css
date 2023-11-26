@@ -25,5 +25,160 @@ body {
     margin : 0;
     overflow-x: hidden;
     min-height: 100%;
+    font-family: RobotoRegular ;
+    /* background-color: #0ad3ef; */
+
+
+}
+
+header{
+    background-image: url(../source/image/banner-overlay-img.png) ;
+    background-size: cover;
+    background-color: #091853;
+    height: 50em;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between ;
+    color : white ;
+    width: 100%;
+    height: 20%;
+    gap : 200px;
+    /* border: 5px solid orange; */
+}
+
+.menuNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border : 2px solid black; */
+    gap : 15px;
+    font-family: url(../source/fonts/RobotoRegular.ttf);
+    /* margin-right: 100px; */
+    /* font-weight:bold; */
+    width: 70%;
+}
+
+.logoNav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    /* border : 5px solid black; */
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+.infoHead{
+    display: flex;
+    flex-direction: row;
+    height:80%;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: flex-end;
+    color : white ;
+    /* height: auto; */
+    gap : 20px;
+    /* border : 5px solid red; */
+}
+
+.imgBannerHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 65%;
+    /* height: auto; */
+    /* border : 5px solid yellow; */
+
+}
+
+.imgBannerHead img{
+    height: 80%;
+    width: 75%;
+}
+
+.infoCybersec{
+    display: flex;
+    width: 30%;
+    /* align-content: flex-end; */
+    height: 60% ;
+    flex-direction: column;
+
+    /* border : 5px solid green; */
+
+}
+
+#btnContact {
+    background-color: #0ad3ef;
+    display: flex;
+    height: 25%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border : none ;
+    color :white;
+}
+
+
+#btnStart, #btnFond{
+    /* border : 5px solid red; */
+    background-color: #0ad3ef;
+    display: flex;
+    width: 45%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5%;
+    border : none ;
+    color : white;
+}
+
+#btnStart:hover {
+    background-color:#091853 ;
+    border: solid 2px #0ad3ef ;
+}
+
+
+#btnFond:hover {
+    background-color:#091853 ;
+    border : 2px solid #2251a0 ;
+}
+
+#btnFond{
+    background-color:  #2251a0;
+    color :white;
+}
+
+.btnContact{
+    background-color: #0ad3ef;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 25%; */
+    border : none ;
+    color : white;
+}
+
+.bntHeader {
+    display:flex;
+    flex-direction: row ;
+    gap : 10px;
+    /* border : 5px solid orange; */
+    height: 8%;
+    /* width: ; */
+    justify-content: center;
+        margin-top: 0;
+
+}
+
+#paraCyber{
+    margin-top : 10px;
 }
 
