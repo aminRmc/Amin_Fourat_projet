@@ -27,9 +27,15 @@ body {
     min-height: 100%;
     font-family: RobotoRegular ;
     /* background-color: #0ad3ef; */
-
-
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 
 header{
     background-image: url(../source/image/banner-overlay-img.png) ;
@@ -209,27 +215,33 @@ a {
 
 .partners {
     width:100%;
-    height: 25em;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #0a1650;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 25px;
 }
 
 .txtPartners {
     width: 100%;
-    height: 20%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+    
 
 }
 
 .txtPartners p{
     color: #2087b2;
     margin: 0;
+    font-weight: bold;
 }
 
 .txtPartners h1{
@@ -242,11 +254,12 @@ a {
     display: flex;
     justify-content: center;
     gap: 2%;
+    flex-wrap: wrap;
 }
 
 .imgPartners div{
-    height: 60%;
-    width: 8%;
+    height: 140px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,36 +307,38 @@ a {
 
 /* section .whoWeAre */
 .whoWeAre{
-    height: 35em;
+    height: auto;
     width: 100%;
     display: flex;
     background: #0a1650;
     justify-content: center;
     align-items: center;
     gap: 5%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
 .imgWhoWeAre{
-    height: 100%;
-    width: 50%;
+    height: 25em;
+    width: 25em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 .imgWhoWeAre img{
   
-    height: 70%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
 }
 
 
 .txtWhoWeAre{
-    height: 80%;
+    height: 25em;
     width: 30%;
     display: flex;
     flex-direction: column;
-    gap: 2%;
+
 }
 .txtWhoWeAre h5{
     margin: 0;
@@ -342,26 +357,37 @@ a {
     color:  #5a6cb2;
     font-size: 80%;
 }
-.txtWhoWeAre li{
-    margin: 0;
-    padding: 0;
-    color:  #5a6cb2;
-    font-size: 100%;
+
+
+
+
+
+
+.txtWhoWeAre ul {
+    --icon-space: 1.5em;
     list-style: none;
-    display: flex;
-    
-    align-items: center;
+    padding: 0;
+}
+.txtWhoWeAre li{
+    padding-left: var(--icon-space);
+    color: #91B4F1;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .txtWhoWeAre li::before{
-    content: url(../source/image/hiclipart.com.png  );
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-   
-    
+    content: "\f058";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #0AD3EF;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
    
 }
+
+
+
 
 .logoWhoWeAre{
     
