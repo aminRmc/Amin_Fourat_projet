@@ -1,7 +1,7 @@
 @media (min-width:0px) and (max-width:500px) {
    
    header{
-   width: 109%;
+   width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@
 
 
   .partners{
-    width: 109%;
+    width: 100%;
    
   }
 
@@ -110,7 +110,7 @@
     height: auto;
     padding-bottom: 50px;
     padding-top: 50px;
-    width: 109%;
+    width: 100%;
     display: flex;
     flex-direction: column;
    
@@ -130,7 +130,7 @@
 }
 
 .whatWeDo {
-    width: 109%;
+    width: 100%;
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -160,7 +160,7 @@
 
 
 .cyberSecurity{
-    width: 109%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@
 
 
 .state{
-    width: 109%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -246,7 +246,7 @@
 
 
 .ourNews{
-    width: 109%;
+    width: 100%;
 }
 
 
@@ -276,7 +276,7 @@
 
 
 footer{
-   width: 109%;
+   width: 100%;
    padding-top: 50px;
 }
 
