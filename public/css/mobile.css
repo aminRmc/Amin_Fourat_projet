@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
    } 
 
    nav{
@@ -22,6 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
    .logoNav{
     width: 50px;
@@ -29,11 +32,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
  
    }
    .logoNav img{
     width: 200px;
     height: 200px;
+    display: none;
    }
 
 
@@ -44,12 +49,12 @@
 
 
    .infoHead{
-    height: 100%;
-    width: 80%;
+    height: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     
 
    }
@@ -58,17 +63,18 @@
    }
    .infoCybersec{
     display: flex;
-    flex-direction: column;
+   font-size: xx-large;
+   margin-left: 0;
    }
    .bntHeader{
-    width: 200px;
+    width: 250px;
 
    }
 
    .imgBannerHead{
     
     height: 60%;
-    width: 50%;
+    width: 40%;
    }
 
 
@@ -254,7 +260,7 @@
 
 
 .getInTouch{
-    width: 109%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -266,7 +272,7 @@
 }
 
 .btnSubmit{
-    width: 450px;
+    width: 300px;
     padding: 0;
 }
 
