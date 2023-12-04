@@ -377,7 +377,7 @@ header {
 
 .txtWhoWeAre ul {
     --icon-space: 1.5em;
-    padding: 0;
+ 
 }
 
 
@@ -389,6 +389,7 @@ header {
     font-family: "RobotoRegular";
     font-size: 14px;
     line-height: 25px;
+   
 }
 
 .txtWhoWeAre li::before{

@@ -127,13 +127,30 @@
 
 
 .imgWhoWeAre{
-   
+   height: 20em;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
   
 }
+
+.txtWhoWeAre{
+    font-size: small;
+    width: 80%;
+}
+
+.logoWhoWeAre{
+    background-position-x: right;
+  
+}
+
+
+
+
+
+
+
 
 .whatWeDo {
     width: 100%;
